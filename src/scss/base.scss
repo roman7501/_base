@@ -1,14 +1,28 @@
+$pink: #ed11ba;
+
 body {
   font-family: "eesti";
   font-size: 16px;
-  background: #333;
+  background: #000;
   color: #eee;
 }
 
 .container {
+  margin: 0 auto;
   padding: 0 32px;
   max-width: 1440px;
   width: 100%;
+}
+
+.animation-wrapper {
+  width: 100%;
+  svg {
+    height: auto !important;
+    path {
+      // fill: $pink;
+      // stroke: $pink;
+    }
+  }
 }
 
 @media (max-width: 750px) {
