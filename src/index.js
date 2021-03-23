@@ -2,6 +2,7 @@
 import lottie from "lottie-web";
 import data from "./js/animations/data.json";
 
+console.log(data);
 const animationWrapper = document.getElementById("animation-wrapper");
 
 lottie.loadAnimation({
